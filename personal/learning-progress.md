@@ -1,6 +1,6 @@
 # 学习进度追踪
 
-> 最后更新：2026-05-26
+> 最后更新：2026-05-27
 > 学习计划：[week1-agent-interview-sprint.md](week1-agent-interview-sprint.md)
 
 ---
@@ -10,22 +10,14 @@
 | Day | 主题 | 计划日期 | 完成日期 | 测验得分 | 记录 |
 |:---:|------|:---:|:---:|:---:|:---:|
 | 1 | Agent 内核三件套 | 周一 | 05-25 / 05-26 | Loop 10/16, Tool 10/16, Memory 导读 8/8 | ✅ |
-| 2 | RAG 全链路 | 周二 | — | — | — |
+| 2 | RAG 全链路 | 周二 | 05-26 (Embed) / 05-27 (RAG+Adv) | Embed 8/8, RAG 8/8, Adv RAG 7/8 | ✅ |
 | 3 | Agent 推理 + 记忆深度 | 周三 | — | — | — |
 | 4 | Safety Harness + Prompt Injection | 周四 | — | — | — |
 | 5 | 编排模式 + 失败模式 + 评估 | 周五 | — | — | — |
 | 6 | 协议层 + 框架地图 | 周六 | — | — | — |
 | 7 | 项目深挖 + 模拟面试 | 周日 | — | — | — |
 
-### Day 2 提前启动
-
-| 课程 | 完成日期 | 模式 | 记录 |
-|------|:---:|:---:|:---:|
-| Embeddings & Vector Representations (Phase 11 · 04) | 05-26 | 导读自答 8/8 | ✅ |
-
----
-
-## Day 1 完成详情
+## Day 2 完成详情
 
 ### 已完成课程
 
@@ -72,7 +64,7 @@
 
 ---
 
-## Day 2 提前启动
+## Day 2 完成详情
 
 ### 已完成课程
 
@@ -87,9 +79,31 @@
 - 亮点：Matryoshka 截断→归一化的理解、Cascaded Retrieval 通用模式总结
 - 学习记录：`phases/11-llm-engineering/04-embeddings/docs/quiz-review.md`
 
-### Day 2 剩余课程
-- [ ] RAG: Retrieval-Augmented Generation（Phase 11 · Lesson 06）
-- [ ] Advanced RAG: Chunking, Reranking（Phase 11 · Lesson 07）
+#### 2. RAG（Phase 11 · Lesson 06）
+- 日期：2026-05-27
+- 文档：`phases/11-llm-engineering/06-rag/docs/`
+  - en.md（已读）| zh.md（已翻译·已读）| quiz-review.md（学习记录）
+- 模式：导读自答（8 题）
+- 状态：8/8 通过
+- 弱项：simple_generate 局限性的精确表述、上下文预算占比计算
+- 亮点：Memory ↔ RAG 对话历史拉通
+- 学习记录：`phases/11-llm-engineering/06-rag/docs/quiz-review.md`
+
+#### 3. Advanced RAG（Phase 11 · Lesson 07）
+- 日期：2026-05-27
+- 文档：`phases/11-llm-engineering/07-advanced-rag/docs/`
+  - en.md（已读）| zh.md（已翻译·已读）| quiz-review.md（学习记录）
+- 模式：导读自答（8 题）
+- 状态：7/8 通过
+- 弱项：BM25/向量/Hybrid 在不同场景下的选择判断（精确错误码 vs 口语化查询搞反）
+- 亮点：RRF 设计哲学理解、父子 Chunking ↔ Cascaded Retrieval 拉通、Faithfulness 评估的局限性洞察
+- 学习记录：`phases/11-llm-engineering/07-advanced-rag/docs/quiz-review.md`
+
+### Day 2 完成状态
+- [x] Embeddings & Vector Representations
+- [x] RAG: Retrieval-Augmented Generation
+- [x] Advanced RAG: Chunking, Reranking
+- **Day 2 全部完成**
 
 ---
 

@@ -7,15 +7,21 @@
 
 ## Sprint 总进度
 
-| Day | 主题 | 计划日期 | 完成日期 | 测验得分 | 错题本 |
+| Day | 主题 | 计划日期 | 完成日期 | 测验得分 | 记录 |
 |:---:|------|:---:|:---:|:---:|:---:|
-| 1 | Agent 内核三件套 | 周一 | 05-25 (Loop) / 05-26 (Tool) | Loop 10/16, Tool 10/16 | ✅ |
+| 1 | Agent 内核三件套 | 周一 | 05-25 / 05-26 | Loop 10/16, Tool 10/16, Memory 导读 8/8 | ✅ |
 | 2 | RAG 全链路 | 周二 | — | — | — |
 | 3 | Agent 推理 + 记忆深度 | 周三 | — | — | — |
 | 4 | Safety Harness + Prompt Injection | 周四 | — | — | — |
 | 5 | 编排模式 + 失败模式 + 评估 | 周五 | — | — | — |
 | 6 | 协议层 + 框架地图 | 周六 | — | — | — |
 | 7 | 项目深挖 + 模拟面试 | 周日 | — | — | — |
+
+### Day 2 提前启动
+
+| 课程 | 完成日期 | 模式 | 记录 |
+|------|:---:|:---:|:---:|
+| Embeddings & Vector Representations (Phase 11 · 04) | 05-26 | 导读自答 8/8 | ✅ |
 
 ---
 
@@ -47,8 +53,43 @@
   3. 推理基础设施 × Agent 交叉视角未发挥专业深度
 - 错题本：`phases/14-agent-engineering/06-tool-use-and-function-calling/docs/quiz-review.md`
 
-### Day 1 剩余课程
-- [ ] Memory: Virtual Context & MemGPT（Phase 14 · Lesson 07）— 尚未学习
+#### 3. Memory: Virtual Context and MemGPT（Phase 14 · Lesson 07）
+- 日期：2026-05-26
+- 文档：`phases/14-agent-engineering/07-memory-virtual-context-memgpt/docs/`
+  - en.md（已读）| zh.md（已翻译）| quiz-review.md（学习记录）
+- 代码：`phases/14-agent-engineering/07-memory-virtual-context-memgpt/code/main.py`（已读）
+- 模式：导读自答（8 题）
+- 状态：8/8 通过
+- 弱项：Page Fault 精确表述、Sleep-time agents 解决 memory rot
+- 亮点：Memory poisoning ↔ trust boundary 概念拉通
+- 学习记录：`phases/14-agent-engineering/07-memory-virtual-context-memgpt/docs/quiz-review.md`
+
+### Day 1 完成状态
+- [x] The Agent Loop
+- [x] Tool Use and Function Calling
+- [x] Memory: Virtual Context and MemGPT
+- **Day 1 全部完成**
+
+---
+
+## Day 2 提前启动
+
+### 已完成课程
+
+#### 1. Embedding 与向量表示（Phase 11 · Lesson 04）
+- 日期：2026-05-26
+- 文档：`phases/11-llm-engineering/04-embeddings/docs/`
+  - en.md（已读）| zh.md（已翻译·已读）| quiz-review.md（学习记录）
+- 代码：`phases/11-llm-engineering/04-embeddings/code/embeddings.py`（已读）
+- 模式：导读自答（8 题）
+- 状态：8/8 通过
+- 弱项：HNSW 精度损失精确机制、法律文档最优 chunking 策略
+- 亮点：Matryoshka 截断→归一化的理解、Cascaded Retrieval 通用模式总结
+- 学习记录：`phases/11-llm-engineering/04-embeddings/docs/quiz-review.md`
+
+### Day 2 剩余课程
+- [ ] RAG: Retrieval-Augmented Generation（Phase 11 · Lesson 06）
+- [ ] Advanced RAG: Chunking, Reranking（Phase 11 · Lesson 07）
 
 ---
 

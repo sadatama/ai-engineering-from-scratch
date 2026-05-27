@@ -11,7 +11,7 @@
 |:---:|------|:---:|:---:|:---:|:---:|
 | 1 | Agent 内核三件套 | 周一 | 05-25 / 05-26 | Loop 10/16, Tool 10/16, Memory 导读 8/8 | ✅ |
 | 2 | RAG 全链路 | 周二 | 05-26 (Embed) / 05-27 (RAG+Adv) | Embed 8/8, RAG 8/8, Adv RAG 7/8 | ✅ |
-| 3 | Agent 推理 + 记忆深度 | 周三 | — | — | — |
+| 3 | Agent 推理 + 记忆深度 | 周三 | 05-27 (ReWOO) | ReWOO 10.5/16 | 🔄 |
 | 4 | Safety Harness + Prompt Injection | 周四 | — | — | — |
 | 5 | 编排模式 + 失败模式 + 评估 | 周五 | — | — | — |
 | 6 | 协议层 + 框架地图 | 周六 | — | — | — |
@@ -104,6 +104,24 @@
 - [x] RAG: Retrieval-Augmented Generation
 - [x] Advanced RAG: Chunking, Reranking
 - **Day 2 全部完成**
+
+---
+
+## Day 3 已完成
+
+### 1. ReWOO & Plan-and-Execute（Phase 14 · Lesson 02）
+- 日期：2026-05-27
+- 模式：闭卷测验（8 题）
+- 得分：**10.5/16**（及格）
+- 弱项：
+  1. 简单任务过度设计（单次 tool call 选 ReWOO，应选 ReAct）
+  2. Replaner token 开销估算模糊
+  3. ReAct 角色映射不精确
+- 错题本：`phases/14-agent-engineering/02-rewoo-plan-and-execute/docs/quiz-review.md`
+
+### Day 3 剩余
+- [ ] Reflexion & Verbal RL（Phase 14 · Lesson 03）
+- [ ] Planning: HTN & Evolutionary（Phase 14 · Lesson 11）
 
 ---
 

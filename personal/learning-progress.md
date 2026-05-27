@@ -11,7 +11,7 @@
 |:---:|------|:---:|:---:|:---:|:---:|
 | 1 | Agent 内核三件套 | 周一 | 05-25 / 05-26 | Loop 10/16, Tool 10/16, Memory 导读 8/8 | ✅ |
 | 2 | RAG 全链路 | 周二 | 05-26 (Embed) / 05-27 (RAG+Adv) | Embed 8/8, RAG 8/8, Adv RAG 7/8 | ✅ |
-| 3 | Agent 推理 + 记忆深度 | 周三 | 05-27 (ReWOO) | ReWOO 10.5/16 | 🔄 |
+| 3 | Agent 推理 + 记忆深度 | 周三 | 05-27 (ReWOO) / 05-28 (Reflexion) | ReWOO 10.5/16, Reflexion 11.5/16 | 🔄 |
 | 4 | Safety Harness + Prompt Injection | 周四 | — | — | — |
 | 5 | 编排模式 + 失败模式 + 评估 | 周五 | — | — | — |
 | 6 | 协议层 + 框架地图 | 周六 | — | — | — |
@@ -119,8 +119,20 @@
   3. ReAct 角色映射不精确
 - 错题本：`phases/14-agent-engineering/02-rewoo-plan-and-execute/docs/quiz-review.md`
 
+### 2. Reflexion & Verbal RL（Phase 14 · Lesson 03）
+- 日期：2026-05-28
+- 模式：闭卷测验（8 题）
+- 得分：**11.5/16**（趋势 ↑）
+- 弱项：
+  1. Actor 角色定位偏差（混淆 Actor 和 ReWOO Planner）
+  2. Reflexion 优势应是"样本效率"而非"信息密度"
+  3. Memory Rot 与 Lesson 07 是同一概念（判断矛盾）
+- 亮点：Q8 ReWOO × Reflexion 跨课拉通（本场最佳）
+- 错题本：`phases/14-agent-engineering/03-reflexion-verbal-rl/docs/quiz-review.md`
+
 ### Day 3 剩余
-- [ ] Reflexion & Verbal RL（Phase 14 · Lesson 03）
+- [x] ReWOO & Plan-and-Execute
+- [x] Reflexion & Verbal RL
 - [ ] Planning: HTN & Evolutionary（Phase 14 · Lesson 11）
 
 ---
